@@ -15,7 +15,7 @@ The project demonstrates the complete analytics workflow:
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 - PostgreSQL
 - SQL
@@ -65,7 +65,7 @@ The dataset contains sales transactions with the following fields:
 
 ---
 
-## 📊 Power BI Dashboard
+##  Power BI Dashboard
 
 ### Page 1: Executive Sales Overview
 
@@ -110,13 +110,13 @@ The dataset contains sales transactions with the following fields:
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
 ### Executive Dashboard
 
 > Add screenshot here
 
-![Executive Dashboard](Screenshots/Dashboard_Page1.png)
+![Executive Dashboard](Screenshot/Dashboard_Page1.png)
 
 ---
 
@@ -124,23 +124,23 @@ The dataset contains sales transactions with the following fields:
 
 > Add screenshot here
 
-![Product Dashboard](Screenshots/Dashboard_Page2.png)
+![Product Dashboard](Screenshot/Dashboard_Page2.png)
 
 ---
 
-## 📷 SQL Analysis Outputs
+##  SQL Analysis Outputs
 
 ### Sales by Category
 
-![Sales by Category](Screenshots/Sales_By_Category.png)
+![Sales by Category](Screenshot/Sales_By_Category.png)
 
 ### Monthly Sales Trend
 
-![Monthly Sales Trend](Screenshots/Monthly_Sales_Trend.png)
+![Monthly Sales Trend](Screenshot/Monthly_Sales_Trend.png)
 
 ### Top Products
 
-![Top Products](Screenshots/Top_Products.png)
+![Top Products](Screenshot/Top_Products.png)
 
 ---
 
