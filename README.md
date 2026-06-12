@@ -1,49 +1,245 @@
-# Sales Performance Analysis (SQL)
+# Sales Performance Analysis & Dashboard
 
-## Project Overview
+## Overview
 
-This project analyzes sales transaction data using PostgreSQL.
+This end-to-end Data Analytics project analyzes sales transaction data using **PostgreSQL (SQL)** and visualizes key business insights through an interactive **Power BI Dashboard**.
 
-The objective is to identify:
+The project demonstrates the complete analytics workflow:
 
-- Top-performing products
-- Sales trends
-- Regional performance
-- Profitability insights
-- Revenue contribution by product
+- Data Import & Preparation
+- SQL-Based Business Analysis
+- Advanced Querying with CTEs and Window Functions
+- Data Modeling in Power BI
+- Interactive Dashboard Development
+- Business Insight Generation
 
-## Tools Used
+---
+
+## 🛠 Tools & Technologies
 
 - PostgreSQL
-- pgAdmin 4
+- SQL
+- Power BI
+- DAX
+- Excel
 - GitHub
 
-## SQL Concepts Used
+---
 
-- SELECT
-- WHERE
-- GROUP BY
-- ORDER BY
-- Aggregate Functions
-- CTEs
-- Window Functions
-- ROW_NUMBER()
-- RANK()
-- LAG()
-- Running Totals
-- Moving Averages
+##  Dataset
 
-## Business Questions Answered
+The dataset contains sales transactions with the following fields:
+
+- Order Date
+- Product Name
+- Category
+- Region
+- Quantity
+- Sales
+- Profit
+
+---
+
+##  SQL Analysis
+
+### Basic Analysis
 
 - Total Sales
 - Total Profit
+- Total Orders
+- Top Customers
+- Top Products
+
+### Intermediate Analysis
+
 - Sales by Category
 - Sales by Region
 - Monthly Sales Trend
-- Top Products by Revenue
-- Top 3 Products in Each Category
-- Month-over-Month Growth
-- Products Contributing 80% of Revenue
-- Revenue Share by Product
-- Highest Profit Region Per Year
+- Most Profitable Products
+- Least Profitable Products
 
+### Advanced Analysis
+
+- Running Monthly Sales
+- Profit Margin by Category
+
+---
+
+## 📊 Power BI Dashboard
+
+### Page 1: Executive Sales Overview
+
+#### KPI Cards
+
+- Total Sales
+- Total Profit
+- Total Orders
+- Profit Margin %
+
+#### Visualizations
+
+- Monthly Sales Trend
+- Monthly Profit Trend
+- Sales by Region
+- Sales by Category
+- Profit by Category
+
+#### Filters
+
+- Category
+- Region
+- Date Range
+
+---
+
+### Page 2: Product Performance Analysis
+
+#### Visualizations
+
+- Top Products by Sales
+- Top Products by Profit
+- Sales vs Profit by Category
+- Revenue Contribution by Category
+- Profit Margin Trend
+
+#### Filters
+
+- Category
+- Region
+- Date Range
+
+---
+
+## 📸 Dashboard Preview
+
+### Executive Dashboard
+
+> Add screenshot here
+
+![Executive Dashboard](Screenshots/Dashboard_Page1.png)
+
+---
+
+### Product Performance Dashboard
+
+> Add screenshot here
+
+![Product Dashboard](Screenshots/Dashboard_Page2.png)
+
+---
+
+## 📷 SQL Analysis Outputs
+
+### Sales by Category
+
+![Sales by Category](Screenshots/Sales_By_Category.png)
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](Screenshots/Monthly_Sales_Trend.png)
+
+### Top Products
+
+![Top Products](Screenshots/Top_Products.png)
+
+---
+
+## 🔍 Key Business Insights
+
+### 1. Electronics Category Leads Revenue
+
+Electronics generated the highest sales and profit among all categories, making it the primary revenue driver.
+
+### 2. Strong Product Concentration
+
+A small group of products contributed a significant share of total revenue, highlighting key revenue-generating products.
+
+### 3. Balanced Regional Performance
+
+Sales distribution remained relatively balanced across all regions, reducing business dependency on a single market.
+
+### 4. Consistent Profitability
+
+Profit trends closely followed revenue trends, indicating stable profit margins throughout the analysis period.
+
+### 5. Category Performance Gap
+
+Office products generated considerably lower sales and profit compared to Electronics and Accessories.
+
+### 6. Seasonal Sales Patterns
+
+Monthly trend analysis revealed fluctuations in demand, indicating potential seasonal buying behavior.
+
+---
+
+## Repository Structure
+
+```text
+Sales-Performance-Analysis-SQL-PowerBI
+│
+├── Dataset
+│   └── ecommerce_sales_data.xlsx
+│
+├── SQL Queries
+│   └── Sales_analysis.sql
+│
+├── Power BI Dashboard
+│   └── Sales_Performance_Dashboard.pbix
+│
+├── Screenshots
+│   ├── Dashboard_Page1.png
+│   ├── Dashboard_Page2.png
+│   ├── Sales_By_Category.png
+│   ├── Monthly_Sales_Trend.png
+│   └── Top_Products.png
+│
+├── Insights.md
+│
+└── README.md
+```
+
+---
+
+## 🎯 Skills Demonstrated
+
+### SQL
+
+- SELECT Statements
+- Filtering & Sorting
+- GROUP BY
+- Aggregate Functions
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Running Totals
+
+### Power BI
+
+- Data Modeling
+- DAX Measures
+- KPI Cards
+- Interactive Dashboards
+- Slicers & Filters
+- Trend Analysis
+- Business Reporting
+
+### Business Analysis
+
+- Revenue Analysis
+- Profitability Analysis
+- Product Performance Analysis
+- Regional Performance Analysis
+- Trend Identification
+- Insight Generation
+
+---
+
+## 🚀 Resume Highlights
+
+- Analyzed 4,000+ sales transactions using PostgreSQL and SQL to identify revenue trends, category performance, and regional sales patterns.
+- Developed advanced SQL queries using aggregations, CTEs, and window functions to perform business analysis and customer/product ranking.
+- Built an interactive Power BI dashboard with KPI cards, trend analysis, category performance, and regional sales insights.
+- Connected Power BI directly to PostgreSQL and created DAX measures for sales, profit, order volume, and profit margin reporting.
+- Generated actionable business insights by identifying top-performing products, profitable categories, and seasonal sales trends.
+
+---
