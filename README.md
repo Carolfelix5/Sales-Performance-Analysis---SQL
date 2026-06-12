@@ -144,7 +144,7 @@ The dataset contains sales transactions with the following fields:
 
 ---
 
-## 🔍 Key Business Insights
+## Key Business Insights
 
 ### 1. Electronics Category Leads Revenue
 
@@ -234,12 +234,4 @@ Sales-Performance-Analysis-SQL-PowerBI
 
 ---
 
-## 🚀 Resume Highlights
 
-- Analyzed 4,000+ sales transactions using PostgreSQL and SQL to identify revenue trends, category performance, and regional sales patterns.
-- Developed advanced SQL queries using aggregations, CTEs, and window functions to perform business analysis and customer/product ranking.
-- Built an interactive Power BI dashboard with KPI cards, trend analysis, category performance, and regional sales insights.
-- Connected Power BI directly to PostgreSQL and created DAX measures for sales, profit, order volume, and profit margin reporting.
-- Generated actionable business insights by identifying top-performing products, profitable categories, and seasonal sales trends.
-
----
