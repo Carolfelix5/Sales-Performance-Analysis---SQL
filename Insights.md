@@ -1,22 +1,25 @@
 # Key Insights
 
-## Revenue Analysis
+## Revenue Performance
 
-- Electronics generated the highest revenue.
-- The South region produced the highest profit.
+- Total Sales exceeded 10M.
+- Electronics generated the highest category revenue.
+- Revenue was distributed evenly across regions.
 
-## Product Analysis
+## Profitability
 
-- Product X was the highest revenue-generating product.
-- Product Y generated negative profit.
+- Total Profit exceeded 1.8M.
+- Electronics generated the highest profit.
+- Profit margins remained relatively stable throughout the analysis period.
 
-## Trend Analysis
+## Product Performance
 
-- Revenue showed consistent growth across the year.
-- Q4 delivered the strongest sales performance.
+- Top products contributed a large share of total revenue.
+- Product performance varied significantly across categories.
 
-## Recommendations
+## Business Recommendations
 
-- Increase inventory for top-selling products.
-- Review pricing for low-profit products.
-- Focus marketing spend on high-margin categories.
+- Increase investment in Electronics category.
+- Promote high-profit products through targeted campaigns.
+- Investigate underperforming Office products.
+- Continue monitoring regional performance to identify growth opportunities.
