@@ -22,7 +22,6 @@ The project demonstrates the complete analytics workflow:
 - Power BI
 - DAX
 - Excel
-- GitHub
 
 ---
 
